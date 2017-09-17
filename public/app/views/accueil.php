@@ -1,1 +1,4 @@
-<div ng-controller='accueilController'></div>
+<div ng-controller='accueilController'>
+	{{data.test}}
+	<button ng-click="getlist()">ok</button>
+</div>

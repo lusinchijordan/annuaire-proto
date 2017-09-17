@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/accueil', 'AccueilController@get');
+Route::get('/accueil/{id}', 'AccueilController@getID');
