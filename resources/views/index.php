@@ -7,6 +7,8 @@
 		<script type="text/javascript" src="<?php echo url('app/app.js') ?>"></script>
 		<script type="text/javascript" src="<?php echo url('app/routing.js') ?>"></script>
 		<script type="text/javascript" src="<?php echo url('app/controllers/accueilController.js') ?>"></script>
+		<script type="text/javascript" src="<?php echo url('app/controllers/rechercheController.js') ?>"></script>
+
 		
 		<title>annuaire ifa</title>
 	</head>

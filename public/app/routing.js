@@ -5,4 +5,9 @@ app.config(function($routeProvider) {
 		templateUrl: 'app/views/accueil.php',
 		controller: 'accueilController'
 	})
+
+	.when('/recherche',{
+		templateUrl: 'app/views/recherche.php',
+		controller: 'rechercheController'
+	})
 });
